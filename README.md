@@ -37,7 +37,7 @@ $$
 - The **+0.05 bias** is the restorative impulse for directed recovery.
 
 ## Next Uploads
-- Full preprint PDF coming soon in `/paper/`
+- [Full preprint PDF (v2 draft)](paper/Bamboo-GPU-Mode-Preprint-v2.pdf) – Download or view the latest manuscript
 - Figures and code prototypes in `/figures/` and `/code/`
 
 ## How to Cite
