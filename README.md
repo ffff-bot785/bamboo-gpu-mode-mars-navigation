@@ -6,9 +6,9 @@
 **Preprint version:** v3 (cleaned LaTeX edition)  
 **DOI:** [https://doi.org/10.5281/zenodo.18279778](https://doi.org/10.5281/zenodo.18279778)
 
-Traditional autonomous navigation systems for planetary rovers (e.g., A* or Dynamic Window Approach) often suffer irreversible failure in extraterrestrial environments due to extreme sensor noise (dust storms) and unpredictable terrain (sand traps).
+Traditional autonomous navigation systems for planetary rovers, such as A* or Dynamic Window Approach (DWA), frequently experience irreversible failure in extraterrestrial environments due to extreme sensor noise (e.g., dust storms) and unpredictable terrain features (e.g., sand traps).
 
-**Bamboo GPU Mode** is a resilience-oriented framework prioritizing recovery over path optimization. It integrates a game-theoretic payoff matrix with phototropic mutation, modeling navigation as population-based evolution among virtual agents.
+**Bamboo GPU Mode** is a resilience-oriented framework that prioritizes system recovery over conventional path optimization. It integrates a game-theoretic payoff matrix with a phototropic mutation mechanism, modeling navigation as a population-based evolutionary process among virtual agents.
 
 System health is quantified by the **Resilience Index (R)**:
 $$
@@ -18,12 +18,12 @@ where $\text{Share}_H(t)$ is the harmony/coordination score (0–1.0), and $D_{\
 
 GPU-accelerated parallel iteration enables real-time execution on edge hardware (e.g., NVIDIA Jetson Orin Nano). Simulations on synthetic Mars DEM demonstrate **100% revival success** in 20 forced-crash tests, even at $\sigma = 0.6$ noise, converging to fully coordinated states ($\text{Share}_H = 1.0$).
 
-This framework introduces a self-healing paradigm for future missions (Artemis, ExoMars, etc.).
+This framework introduces a self-healing paradigm for future planetary exploration missions including Artemis and ExoMars.
 
 ## Key Sections from Draft (v3)
 
 ### 1. Introduction
-- **Problem**: Mission-terminating failures from terrain traps and sensor blackout; traditional planners (A*, D*) lack recovery mechanisms.
+- **Problem**: Mission-terminating failures under terrain traps and sensor blackout; traditional planners (A*, D*) lack recovery mechanisms.
 - **Inspiration**: Bamboo’s bend-and-rebound resilience principle.
 - **Innovation**: First integration of Nash-stable payoff dynamics with evolutionary phototropic mutation under GPU acceleration.
 
@@ -35,7 +35,7 @@ This framework introduces a self-healing paradigm for future missions (Artemis, 
 (Full mathematical details and derivations in the preprint PDF.)
 
 ## Repository Structure
-- `paper/` – Preprint PDF (v2 original scan + v3 cleaned LaTeX)
+- `paper/` – Preprint PDF (v2 original + v3 cleaned LaTeX)
 - `figures/` – DEM heatmaps and trajectory plots (to be added)
 - `code/` – Simulation prototypes (in preparation)
 
