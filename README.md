@@ -6,6 +6,8 @@
 **Preprint version:** v3 (cleaned LaTeX edition)  
 **DOI:** [https://doi.org/10.5281/zenodo.18279778](https://doi.org/10.5281/zenodo.18279778)
 
+[Download or View Preprint PDF v3 (cleaned version with fixed formulas)](paper/Bamboo-GPU-Mode-Preprint-v3.pdf) – Recommended latest manuscript
+
 Traditional autonomous navigation systems for planetary rovers, such as A* or Dynamic Window Approach (DWA), frequently experience irreversible failure in extraterrestrial environments due to extreme sensor noise (e.g., dust storms) and unpredictable terrain features (e.g., sand traps).
 
 **Bamboo GPU Mode** is a resilience-oriented framework that prioritizes system recovery over conventional path optimization. It integrates a game-theoretic payoff matrix with a phototropic mutation mechanism, modeling navigation as a population-based evolutionary process among virtual agents.
