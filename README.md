@@ -54,5 +54,7 @@ This framework introduces a self-healing paradigm for future planetary explorati
   title        = {Bamboo GPU Mode: A Game-Theoretic Evolutionary Framework for Resilient Self-Healing Navigation in Extreme Mars DEM Environments},
   year         = {2026},
   publisher    = {Zenodo},
+  version      = {v2},
   doi          = {10.5281/zenodo.18279778},
-  url
+  url          = {https://doi.org/10.5281/zenodo.18279778}
+}
